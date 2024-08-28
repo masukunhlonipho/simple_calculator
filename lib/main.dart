@@ -223,5 +223,7 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
       ),
     );
   }
+  
+  FlatButton({required RoundedRectangleBorder shape, required EdgeInsets padding, required Function() onPressed, required Text child}) {}
 }
 
